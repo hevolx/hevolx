@@ -1,7 +1,7 @@
 ## Hej där din fina lilla filur 👋
 - 📫 Du når mig via: s2307702@student.hb.se
 - 🏫 Högskolan i Borås: Systemvetarutbildningen
-- 🌱 Jag lär mig förnuvarande Objektorienterad Programmering 2 och Webbdesign
+- 🌱 Jag jobbar förnuvarande mot att uppnå Certified Tester Foundation Level (CTFL) v4.0
 - [![roadmap.sh](https://roadmap.sh/card/tall/679099f798c00f7117f9dddc?variant=dark)](https://roadmap.sh)
 <!--
 **hevolx/hevolx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
