@@ -1,0 +1,25 @@
+name: GitHub Metrics
+
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run on pushes to main/master
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allows committing the generated SVG back to the repo
+    steps:
+      # Full-year calendar
+      - name: Full-year isometric calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics.isocalendar.full.svg  # Output file name
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
